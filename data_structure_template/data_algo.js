@@ -130,6 +130,34 @@ function LinkedList() {
 
 }
 
+var moto = new LinkedList();
+moto.add('Yamaha');
+moto.add('Suzuki');
+moto.add('Ducati');
+moto.add('Kawasaki');
+console.log(moto.size());
+console.log(moto.elementAt(3));
+console.log(moto.indexOf('Suzuki'));
+
+
+
+
+
+
+
+
+
+//LinkedList.add will add an element tot he linked list.
+//LinkedList.size will give my the size of my linked list.
+//LinkedList.removeAt(#) will remove the element at the selected index.
+//LinkedList.elementAt(#) will give you the element at the selected index.
+//LinkedList.indexOf('element') will give you the index of that element.
+
+
+
+
+
+
 // var conga = new LinkedList();
 // conga.add('Kitten');
 // conga.add('Puppy');
